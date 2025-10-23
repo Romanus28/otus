@@ -4,6 +4,7 @@ apt update
 
 apt install apache2 prometheus-node-exporter mysql-server -y
 
+mkdir /var/www/html1 && mkdir /var/www/html2
 cp ./otus/back/index1.html /var/www/html1/index.html
 cp ./otus/back/index2.html /var/www/html2/index.html
 cp ./otus/back/ports.conf /etc/apache2/
