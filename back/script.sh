@@ -11,6 +11,8 @@ cp ./otus/back/ports.conf /etc/apache2/
 cp ./otus/back/balance.conf /etc/apache2/sites-available/
 ln -s /etc/apache2/sites-available/balance.conf /etc/apache2/sites-enabled/balance.conf
 
+systemctl restart mysql
+
 systemctl start mysql
 
 cp ./otus/back/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
