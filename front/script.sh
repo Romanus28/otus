@@ -12,7 +12,7 @@ mount 192.168.11.27:/srv/nfs ./nas
 
 dpkg -i ./nas/elk/filebeat_8.17.1_amd64.deb
 
-cp ./otus/frontend/filebeat.yml /etc/filebeat/
+cp ./otus/front/filebeat.yml /etc/filebeat/
 
 systemctl restart filebeat
 
