@@ -26,3 +26,9 @@ http://192.168.11.22:3000
 
 http://192.168.11.26:5601
 В веб интерфейсе вводим elasticsearch-token и kibana-verification-code из консоли, Добавляем Discover и Dashboards
+
+### Backup
+```bash
+  ./otus/front/backup.sh
+```
+Все таблицы сохраняться в этой же директории в папке backup
