@@ -13,6 +13,6 @@ dpkg -i ./nas/grafana/grafana_11.2.2_amd64-224190-264c1b.deb
 systemctl daemon-reload
 systemctl enable --now grafana-server
 
-cp ./otus/monitoring/prometheus.yml /etc/prometheus/
+cp ./otus/grafana/prometheus.yml /etc/prometheus/
 
 systemctl restart prometheus
