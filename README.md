@@ -13,9 +13,16 @@
 ```
 ### 3vm-monitoring
 ```bash
-  ./otus/grafanf/script.sh
+  ./otus/grafana/script.sh
 ```
+
+http://192.168.11.22:3000
+В веб интерфейсе добавить источник данных  Prometheus, URL указываем http://localhost:9090 и добавляем Dashbord
+
 ### 4vm-elk
 ```bash
   ./otus/elk/script.sh
 ```
+
+http://192.168.11.26:5601
+В веб интерфейсе вводим elasticsearch-token и kibana-verification-code из консоли, Добавляем Discover и Dashboards
